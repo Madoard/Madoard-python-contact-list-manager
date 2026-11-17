@@ -1,33 +1,48 @@
-# Madoard-python-contact-list-manager
-₊˚ʚ ᗢ₊˚✧ ﾟ. ────── ꒰ 💌 ꒱ ────── .ﾟ ✧˚₊ᗢ ɞ˚₊
+<div align="center">
 
-# ˚₊‧꒰ა 📓 Python Contact List Manager 📓 ໒꒱‧₊˚
+  <p>｡ﾟ☁︎｡⋆｡ ﾟ☾ ﾟ｡⋆ ──────────── ꒰ 📇 ꒱ ──────────── ⋆｡ﾟ☾ ﾟ｡⋆｡☁︎｡ﾟ</p>
 
-> ✧･ﾟ: *✧･ﾟ:* A command-line Python application for managing a contact directory, allowing users to register, search, list, and remove contacts stored in memory using dictionaries. *:･ﾟ✧*:･ﾟ✧
+  <h1>˚₊‧꒰ა 📓 Python Contact List Manager 📓 ໒꒱‧₊˚</h1>
 
-‧₊˚ ⋅ ─────────────────────── ⋅ ˚₊‧
+  <p>
+    <i>✧･ﾟ: *✧･ﾟ:* Command-line Python contact directory built with in-memory lists and dictionaries to register, query, filter, and remove contact records *:･ﾟ✧*:･ﾟ✧</i>
+  </p>
 
-## ꒰ 🦢 ꒱ Features & Menu Options
+  <p>
+    <img src="https://img.shields.io/badge/Python-3.x-FFB7C5?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
+    <img src="https://img.shields.io/badge/Data%20Structures-Lists%20%26%20Dicts-E6E6FA?style=for-the-badge&logoColor=555555" alt="Lists and Dicts" />
+    <img src="https://img.shields.io/badge/Operations-In--Memory%20CRUD-FFD1DC?style=for-the-badge&logoColor=white" alt="CRUD" />
+  </p>
 
-The interactive menu provides complete contact management capabilities:
+</div>
 
-* ₊˚⊹ **1. Register Contact:** Adds a new contact with a unique `ID`, `Name`, `Activity/Role`, and `Phone Number`.
-* ₊˚⊹ **2. Search Contacts:**
-  * *View All:* Displays every registered contact in the directory.
-  * *Search by ID:* Finds a specific contact using their unique identifier.
-  * *Search by Activity:* Filters contacts by their occupation or sector.
-* ₊˚⊹ **3. Remove Contact:** Deletes a contact record from the list by its `ID`.
-* ₊˚⊹ **4. Exit:** Safely closes the application.
+<br/>
 
-‧₊˚ ⋅ ─────────────────────── ⋅ ˚₊‧
+<p align="center">‧₊˚ ☁️⋅♡𓂃 ࣪ ִֶָ☾. ─────────────────────── ‧₊˚ ☁️⋅♡𓂃 ࣪ ִֶָ☾.</p>
 
-## ೃ⁀➷ Concepts Practiced
+### ╰┈➤ ꒰ 📞 ꒱ Directory Capabilities
 
-* ₊˚✧ **Data structures:** Combining `lists` and `dictionaries` (`list[dict]`) to store structured records
-* ₊˚✧ **CRUD logic:** Implementing Create, Read, and Delete operations in Python
-* ₊˚✧ **Modular functions** (`def`) with parameters and nested menu loops
-* ₊˚✧ **Iteration & filtering** (`for` loops and conditional checks) over collections
+The interactive CLI menu supports full in-memory contact management:
 
-°•. ✿ .•° ────── ꒰ 🎀 ꒱ ────── °•. ✿ .•°
+* **₊˚✒️ Register Contact (`Create`):** Stores a new contact entry mapped by `ID`, `Name`, `Activity/Role`, and `Phone Number`.
+* **₊˚🔖 Search Contacts (`Read`):**
+  * *View All:* Iterates through the directory to display every stored contact.
+  * *Search by ID:* Retrieves a specific record matching its unique identifier.
+  * *Search by Activity:* Filters entries dynamically by occupation or sector.
+* **₊˚✒️ Remove Contact (`Delete`):** Locates and removes a contact dictionary from the list by `ID`.
+* **₊˚🔖 Exit:** Cleanly terminates the interactive session.
 
-*made with 💗 by **Maria Eduarda Gonçalves***
+<p align="center">‧₊˚ ☁️⋅♡𓂃 ࣪ ִֶָ☾. ─────────────────────── ‧₊˚ ☁️⋅♡𓂃 ࣪ ִֶָ☾.</p>
+
+### ╰┈➤ ꒰ 💌 ꒱ How It Was Built
+
+* **₊˚📓 Composite Data Structures (`list[dict]`):** Modeled each contact as a key-value `dict` appended to a central `list` collection in memory.
+* **₊˚📇 Modular CRUD Architecture (`def`):** Isolated registration, multi-criteria querying, and deletion into parameterized functions driven by nested `while` menu loops.
+* **₊˚📓 Collection Traversal & Filtering:** Used `for` loops with conditional key matching to inspect, filter, and mutate records safely.
+
+<br/>
+
+<div align="center">
+  <p>°•. 📓 .•° ────── ꒰ 💗 ꒱ ────── °•. 📓 .•°</p>
+  <p><i>made with 💗 by <b>Maria Eduarda Gonçalves</b></i></p>
+</div>
