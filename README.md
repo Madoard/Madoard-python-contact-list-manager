@@ -2,7 +2,7 @@
 
   <p>─────────────────────── ✦ ───────────────────────</p>
 
-  <h1>˚₊‧꒰ა Gerenciador de Lista de Contatos em Python ໒꒱‧₊˚</h1>
+  <h1>꒰ა Gerenciador de Lista de Contatos em Python ໒꒱</h1>
 
   <p>
     <i>Agenda de contatos em Python via linha de comando com listas e dicionários em memória para cadastrar, consultar e remover registros.</i>
